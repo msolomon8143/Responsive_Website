@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bttld Air | Air Membership</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	
+  </head>
+  <body>
+	    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="bar">
+       <a class="navbar-brand" href="index.html">Bttld Air</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+             </li>
+			 <li class="nav-item">
+                <a class="nav-link" href="air-membership-ms.html">Shop</a>
+             </li>
+			<li class="nav-item">
+                <a class="nav-link" href="contact_us.html">Contact Us</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="about_us.html">About Us</a>
+             </li>
+
+			<li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+             </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+          </form>
+       </div>
+    </nav>
+	  <div class="jumbotron jumbotron-fluid text-center">
+       <h1 class="display-4">Bottled Air Membership&nbsp;</h1>
+  </div>
+	         <div class="container">
+	  <form class="row g-3" id="bttldAirForm">
+                    <div class="col-md-6">
+                        <label for="inputFName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="inputFName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputLName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="inputLName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPhoneNum" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" id="inputPhoneNum" placeholder="XXX-XXX-XXXX">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="inputEmail">
+                    </div>
+                    <div class="col-md-4 form-check">
+						<p>Subscription Time</p>
+                      <input class="form-check-input" type="radio" id="Tier1" name="tiersRadios" value="option1">
+                        <label class="form-check-label" for="tiersRadios1">
+                            Monthly
+							<br>
+                      </label>
+                    </div>
+                    <div class="col-md-4 form-check">
+
+								  <br>
+						  <br>
+                        <label class="form-check-label" for="tiersRadios1">
+						 <input class="form-check-input" type="radio" id="Tier1" name="tiersRadios" value="option1">	
+						Annually </label>
+                    </div>
+                    <div class="col-md-4 form-check">
+                      
+                              <br>
+						  <br>
+						<input class="form-check-input" type="radio" id="Tier1" name="tiersRadios" value="option1">
+                        <label class="form-check-label" for="tiersRadios1">
+							Lifetime
+                      </label>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label"><br>
+                        Air Scent</label>
+                        <select id="inputAirQuality" class="form-select">
+                          <option selected>Choose</option>
+                            <option>No Scent</option>
+                            <option>Ocean</option>
+                            <option>Pine</option>
+                        </select>
+						<br>
+                    </div>
+                    <div class="col-md-4">&nbsp;</div>
+                    <div class="col-12" id="errors">
+                    </div>
+                    <div class="col-md-2">
+						<br>
+                        <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+                    </div>
+                    <div class="col-md-2">
+					  <br>
+                        <button type="reset" class="btn btn-secondary">Reset</button>
+                    </div>
+                </form>
+	  
+	  
+	  
+	  </div>
+  	<!-- body code goes here -->
+
+       <div class="row">
+         <div class="text-center col-lg-6 offset-lg-3">
+<p>Copyright &copy; 2021 &middot; All Rights Reserved &middot; <a href="index.html" >BttldAir</a></p>
+          </div>
+       </div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/membershipForm.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
